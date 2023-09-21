@@ -2,8 +2,8 @@
   <div class="bg-gray-100">
     <div class="mx-auto w-full max-w-screen-xl px-4 md:py-6 lg:py-8">
       <div class="md:flex gap-16">
-        <div class="mb-6 md:mb-0 w-full md:pt-5">
-          <NuxtLink to="/" class="flex items-center mb-6">
+        <div class="mb-6 md:mb-0 w-full">
+          <NuxtLink to="/" class="flex items-center my-6">
             <img src="/logo.png" class="h-[50px]" />
           </NuxtLink>
           <h2 class="font-normal text-[1.1rem] max-[767px]:text-center">
