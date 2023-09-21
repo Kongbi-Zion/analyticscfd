@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white h-[65px] sticky top-0">
+  <div class="bg-white h-[65px]">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto h-[65px] px-4"
     >
