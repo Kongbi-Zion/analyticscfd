@@ -296,7 +296,7 @@
                 </p>
                 <div class="flex justify-center pt-3">
                   <button
-                    class="border text-red-600 border-red-600 text-white px-6 py-3 mt-4"
+                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
                   >
                     Apply Now
                   </button>
@@ -324,7 +324,7 @@
                 </p>
                 <div class="flex justify-center pt-3">
                   <button
-                    class="border text-red-600 border-red-600 text-white px-6 py-3 mt-4"
+                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
                   >
                     Apply Now
                   </button>
@@ -352,7 +352,7 @@
                 </p>
                 <div class="flex justify-center pt-3">
                   <button
-                    class="border text-red-600 border-red-600 text-white px-6 py-3 mt-4"
+                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
                   >
                     Apply Now
                   </button>
@@ -380,7 +380,7 @@
                 </p>
                 <div class="flex justify-center pt-3">
                   <button
-                    class="border text-red-600 border-red-600 text-white px-6 py-3 mt-4"
+                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
                   >
                     Apply Now
                   </button>
