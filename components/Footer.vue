@@ -4,10 +4,7 @@
       <div class="md:flex gap-16">
         <div class="mb-6 md:mb-0 w-full md:pt-5">
           <NuxtLink to="/" class="flex items-center mb-6">
-            <img
-              src="http://www.analyticscfd.com/wp-content/uploads/2021/10/Logo-For-White-BG.png"
-              class="h-[50px]"
-            />
+            <img src="/logo.png" class="h-[50px]" />
           </NuxtLink>
           <h2 class="font-normal text-[1.1rem] max-[767px]:text-center">
             Analytics Center For Data is a pioneer in education and career
@@ -21,12 +18,12 @@
         <div class="grid grid-cols-1 gap-8 sm:gap-16 sm:grid-cols-2 w-full">
           <div>
             <!-- <h2
-              class="mb-2 pb-3 border-gray-600 text-md font-bold text-gray-900 uppercase dark:text-white"
+              class="mb-2 pb-3 border-gray-600 text-md font-bold text-gray-900 uppercase "
             >
               Useful Links
             </h2> -->
             <ul
-              class="text-gray-500 dark:text-gray-400 font-normal [&_li]:mb-2 [&_li]:pb-3 [&_li]:border-gray-600"
+              class="text-gray-500 font-normal [&_li]:mb-2 [&_li]:pb-3 [&_li]:border-gray-600"
             >
               <li class="">
                 <NuxtLink
@@ -88,19 +85,16 @@
           </div>
           <div>
             <!-- <h2
-              class="mb-2 pb-3 border-gray-600 text-md font-bold text-gray-900 uppercase dark:text-white"
+              class="mb-2 pb-3 border-gray-600 text-md font-bold text-gray-900 uppercase "
             >
               Follow us
             </h2> -->
-            <ul class="text-gray-500 dark:text-gray-400 font-medium -mt-5">
+            <ul class="text-gray-500 font-medium -mt-5">
               <li class="mb-4">
                 <div
                   class="flex items-center max-[767px]:justify-center space-x-3 my-5"
                 >
-                  <a
-                    href="#"
-                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                  >
+                  <a href="#" class="text-gray-500 hover:text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-[37px]"
@@ -112,10 +106,7 @@
                       />
                     </svg>
                   </a>
-                  <a
-                    href="#"
-                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                  >
+                  <a href="#" class="text-gray-500 hover:text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
@@ -129,10 +120,7 @@
                       />
                     </svg>
                   </a>
-                  <a
-                    href="#"
-                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                  >
+                  <a href="#" class="text-gray-500 hover:text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
@@ -145,10 +133,7 @@
                       />
                     </svg>
                   </a>
-                  <a
-                    href="#"
-                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                  >
+                  <a href="#" class="text-gray-500 hover:text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
@@ -161,10 +146,7 @@
                       />
                     </svg>
                   </a>
-                  <a
-                    href="#"
-                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                  >
+                  <a href="#" class="text-gray-500 hover:text-gray-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
@@ -202,14 +184,14 @@
                           <div class="relative w-full min-[500px]:mr-3">
                             <label
                               for="member_email"
-                              class="hidden block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                              class="hidden block mb-2 text-sm font-medium text-gray-900"
                               >Email address</label
                             >
                             <div
                               class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none"
                             >
                               <svg
-                                class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400"
+                                class="w-3.5 h-3.5 text-gray-500"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
@@ -225,7 +207,7 @@
                             </div>
                             <input
                               id="member_email"
-                              class="formkit-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                              class="formkit-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5"
                               name="email_address"
                               aria-label="Email Address"
                               placeholder="Your email address..."
@@ -242,19 +224,19 @@
                       </div>
                     </form>
                     <div
-                      class="text-sm font-medium text-gray-500 dark:text-gray-300 max-[767px]:text-center"
+                      class="text-sm font-medium text-gray-500 max-[767px]:text-center"
                     >
                       By subscribing, you agree with ConvertKit's
                       <a
                         rel="nofollow"
                         href="https://convertkit.com/terms"
-                        class="text-blue-600 hover:underline dark:text-blue-500"
+                        class="text-blue-600 hover:underline"
                         >Terms of Service</a
                       >
                       and
                       <a
                         rel="nofollow"
-                        class="text-blue-600 hover:underline dark:text-blue-500"
+                        class="text-blue-600 hover:underline"
                         href="https://convertkit.com/privacy"
                         >Privacy Policy</a
                       >.

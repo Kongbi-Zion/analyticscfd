@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   // devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   plugins: [{ src: "plugins/amplify.js", mode: "client" }],
+  modules: ["@nuxtjs/color-mode"],
+  colorMode: {
+    classSuffix: "",
+  },
   vite: {
     resolve: {
       alias: {

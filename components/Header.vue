@@ -4,14 +4,11 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto h-[65px] px-4"
     >
       <NuxtLink to="/" class="flex items-center">
-        <img
-          src="http://www.analyticscfd.com/wp-content/uploads/2021/10/Logo-For-White-BG.png"
-          class="h-8 mr-3"
-        />
+        <img src="/logo.png" class="h-8 mr-3" />
       </NuxtLink>
       <button
         type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
         aria-controls="navbar-multi-level"
         aria-expanded="false"
       >
@@ -41,7 +38,7 @@
           >
             <NuxtLink
               to="/"
-              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
               aria-current="page"
               ><p>Courses</p>
               <svg
@@ -58,7 +55,7 @@
           >
             <NuxtLink
               to="/"
-              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
               aria-current="page"
               ><p>For companies</p>
               <svg
@@ -75,7 +72,7 @@
           >
             <NuxtLink
               to="/"
-              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
               aria-current="page"
               ><p>About us</p>
               <svg
@@ -92,7 +89,7 @@
           >
             <NuxtLink
               to="/"
-              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+              class="flex items-center py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
               aria-current="page"
               ><p>Find your career</p>
             </NuxtLink>

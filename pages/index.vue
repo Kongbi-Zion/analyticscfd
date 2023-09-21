@@ -26,9 +26,7 @@
             <div
               class="min-md:max-w-xl max-md:mb-8 shadow w-full p-8 bg-white border border-gray-200 rounded"
             >
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                 INDIVIDUALS
               </h5>
               <p class="font-normal text-[1.125rem]">
@@ -42,9 +40,7 @@
             <div
               class="min-md:max-w-xl w-full shadow p-8 bg-white border border-gray-200 rounded"
             >
-              <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-              >
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                 COMPANIES
               </h5>
               <p class="font-normal text-[1.125rem]">
@@ -75,9 +71,7 @@
               class="shadow relative w-full bg-white border border-gray-200 rounded"
             >
               <div class="text-center p-5">
-                <h5
-                  class="mb-2 text-[1.25rem] font-bold text-gray-900 dark:text-white"
-                >
+                <h5 class="mb-2 text-[1.25rem] font-bold text-gray-900">
                   Data Analytics Immersive
                 </h5>
                 <div class="w-full flex justify-center py-5">
@@ -113,9 +107,7 @@
               class="shadow w-full bg-white border border-gray-200 rounded"
             >
               <div class="text-center p-5">
-                <h5
-                  class="mb-2 text-[1.25rem] font-bold text-gray-900 dark:text-white"
-                >
+                <h5 class="mb-2 text-[1.25rem] font-bold text-gray-900">
                   Data Analytics Immersive
                 </h5>
                 <div class="w-full flex justify-center py-5">
@@ -151,9 +143,7 @@
               class="shadow w-full bg-white border border-gray-200 rounded"
             >
               <div class="text-center p-5">
-                <h5
-                  class="mb-2 text-[1.25rem] font-bold text-gray-900 dark:text-white"
-                >
+                <h5 class="mb-2 text-[1.25rem] font-bold text-gray-900">
                   Data Analytics Immersive
                 </h5>
                 <div class="w-full flex justify-center py-5">
@@ -212,12 +202,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
                   >
                     Full-Time
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Challenge yourself and change your career with an 10-13 week
                   immersive learning experience.
                 </p>
@@ -241,12 +231,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
                   >
                     Full-Time
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Challenge yourself and change your career with an 10-13 week
                   immersive learning experience.
                 </p>
@@ -263,12 +253,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
                   >
                     Full-Time
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Challenge yourself and change your career with an 10-13 week
                   immersive learning experience.
                 </p>
@@ -296,12 +286,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
                   >
                     Catalyst ISL Program
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Find out how you can learn now, and pay after you're hired.
                 </p>
                 <div class="flex justify-center pt-3">
@@ -324,12 +314,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
                   >
                     Catalyst ISL Program
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Find out how you can learn now, and pay after you're hired.
                 </p>
                 <div class="flex justify-center pt-3">
@@ -352,12 +342,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
                   >
                     Catalyst ISL Program
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Find out how you can learn now, and pay after you're hired.
                 </p>
                 <div class="flex justify-center pt-3">
@@ -380,12 +370,12 @@
               <div class="p-5 text-center">
                 <NuxtLink to="/">
                   <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900 dark:text-white"
+                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
                   >
                     Catalyst ISL Program
                   </h5>
                 </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p class="mb-3 font-normal text-gray-700">
                   Find out how you can learn now, and pay after you're hired.
                 </p>
                 <div class="flex justify-center pt-3">
@@ -448,13 +438,11 @@
                 class="flex flex-col max-md:pt-1 justify-between md:px-4 leading-normal pr-7"
               >
                 <h5
-                  class="mb-2 text-[1.125rem] font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-[1.125rem] font-bold tracking-tight text-gray-900"
                 >
                   [PRESS PLAY] So You Think You Want A Career In Tech?
                 </h5>
-                <p
-                  class="font-normal text-gray-700 dark:text-gray-400 inline-flex"
-                >
+                <p class="font-normal text-gray-700 inline-flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-[23px] mr-2"
