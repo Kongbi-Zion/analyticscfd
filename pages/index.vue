@@ -65,102 +65,27 @@
           <div
             class="px-6 max-w-screen-xl grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-2 grid-cols-1 gap-6"
           >
-            <NuxtLink
-              to="/"
-              @mouseover="mouseover"
-              class="shadow relative w-full bg-white border border-gray-200 rounded"
-            >
-              <div class="text-center p-5">
-                <h5 class="mb-2 text-[1.25rem] font-bold text-gray-900">
-                  Data Analytics Immersive
-                </h5>
-                <div class="w-full flex justify-center py-5">
-                  <img
-                    class="h-[5rem]"
-                    src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/data-analytics-immersive-0092418c7900c0284b6b712d551bb666.svg"
-                  />
-                </div>
-                <h2 class="mb-2 font-bold text-gray-400">ONLINE | FULL-TIME</h2>
-                <p class="font-normal text-[1rem]">
-                  Discover how to mine data for insights to help inform
-                  strategic business decisions. Pursue an in-demand career as a
-                  data analyst by learning SQL, Tableau, PowerBI, Python, and
-                  more.
-                </p>
-                <div class="absolute top-[45%] right-5">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="#888888"
-                      d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </NuxtLink>
-            <NuxtLink
-              to="/"
-              class="shadow w-full bg-white border border-gray-200 rounded"
-            >
-              <div class="text-center p-5">
-                <h5 class="mb-2 text-[1.25rem] font-bold text-gray-900">
-                  Data Analytics Immersive
-                </h5>
-                <div class="w-full flex justify-center py-5">
-                  <img
-                    class="h-[5rem]"
-                    src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/data-analytics-immersive-0092418c7900c0284b6b712d551bb666.svg"
-                  />
-                </div>
-                <h2 class="mb-2">ONLINE | FULL-TIME</h2>
-                <p class="font-normal text-[1rem]">
-                  Discover how to mine data for insights to help inform
-                  strategic business decisions. Pursue an in-demand career as a
-                  data analyst by learning SQL, Tableau, PowerBI, Python, and
-                  more.
-                </p>
-              </div>
-              <!-- <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="#888888"
-                  d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"
-                />
-              </svg>
-            </div> -->
-            </NuxtLink>
-            <NuxtLink
-              to="/"
-              class="shadow w-full bg-white border border-gray-200 rounded"
-            >
-              <div class="text-center p-5">
-                <h5 class="mb-2 text-[1.25rem] font-bold text-gray-900">
-                  Data Analytics Immersive
-                </h5>
-                <div class="w-full flex justify-center py-5">
-                  <img
-                    class="h-[5rem]"
-                    src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/data-analytics-immersive-0092418c7900c0284b6b712d551bb666.svg"
-                  />
-                </div>
-                <h2 class="mb-2">ONLINE | FULL-TIME</h2>
-                <p class="font-normal text-[1rem]">
-                  Discover how to mine data for insights to help inform
-                  strategic business decisions. Pursue an in-demand career as a
-                  data analyst by learning SQL, Tableau, PowerBI, Python, and
-                  more.
-                </p>
-              </div>
-            </NuxtLink>
+            <Program
+              title="Data Analytics Crash Program"
+              subTitle="ONLINE | FULL-TIME"
+              description=" Uncover the process of extracting insights from data to empower strategic business choices.Embark on a sought-after profession as a data analyst by mastering Excel, SQL, PowerBI, and additional relevant skills."
+              image="/increasing.png"
+              link="/"
+            />
+            <Program
+              title="Data Science Crash Program"
+              subTitle="ONLINE | FULL-TIME"
+              description="Gain expertise in the fundamentals of machine learning to predict future outcomes: forecast patterns within vast datasets using Python"
+              image="/data-analysis.png"
+              link="/"
+            />
+            <Program
+              title="Machine Learning Crash Program"
+              subTitle="ONLINE | FULL-TIME"
+              description="Enter a rapidly expanding, well-compensated profession of machine learning and AI. Become proficient in essential frameworks and technology stacks, create sophisticated AI applications, and much more."
+              image="/machine-learning.png"
+              link="/"
+            />
           </div>
         </div>
         <div class="flex justify-center pt-6">
@@ -191,202 +116,28 @@
           <div
             class="px-6 pb-16 max-w-screen-xl grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-y-6"
           >
-            <div class="w-full bg-white md:border-r border-gray-500">
-              <NuxtLink to="/">
-                <img
-                  class="rounded-t-lg"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/full-time-356ff4246bbe4d674e93c1f1a654b662.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
-                  >
-                    Full-Time
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Challenge yourself and change your career with an 10-13 week
-                  immersive learning experience.
-                </p>
-                <div class="flex justify-center pt-5">
-                  <button
-                    class="bg-red-600 text-white px-6 py-3 mt-4 shadow hover:shadow-lg"
-                  >
-                    View Full-Time Courses
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-full bg-white md:border-r border-gray-500">
-              <NuxtLink to="/">
-                <img
-                  class="rounded-t-lg"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/full-time-356ff4246bbe4d674e93c1f1a654b662.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
-                  >
-                    Full-Time
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Challenge yourself and change your career with an 10-13 week
-                  immersive learning experience.
-                </p>
-              </div>
-            </div>
-            <div class="w-full bg-white">
-              <NuxtLink to="/">
-                <img
-                  class="rounded-t-lg"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/full-time-356ff4246bbe4d674e93c1f1a654b662.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
-                  >
-                    Full-Time
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Challenge yourself and change your career with an 10-13 week
-                  immersive learning experience.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2 class="font-bold text-[1.7rem] text-center -mt-8 mb-10">
-          Fund Your Future
-        </h2>
-
-        <div class="flex justify-center mt-5">
-          <div
-            class="px-6 pb-16 max-w-screen-xl grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-y-6"
-          >
-            <div class="w-full bg-white">
-              <NuxtLink to="/" class="flex justify-center">
-                <img
-                  class="h-[8rem]"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/catalyst-0c8392ed0dd919b85ea13363453afad0.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
-                  >
-                    Catalyst ISL Program
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Find out how you can learn now, and pay after you're hired.
-                </p>
-                <div class="flex justify-center pt-3">
-                  <button
-                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
-                  >
-                    Apply Now
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-full bg-white">
-              <NuxtLink to="/" class="flex justify-center">
-                <img
-                  class="h-[8rem]"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/catalyst-0c8392ed0dd919b85ea13363453afad0.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
-                  >
-                    Catalyst ISL Program
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Find out how you can learn now, and pay after you're hired.
-                </p>
-                <div class="flex justify-center pt-3">
-                  <button
-                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
-                  >
-                    Apply Now
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-full bg-white">
-              <NuxtLink to="/" class="flex justify-center">
-                <img
-                  class="h-[8rem]"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/catalyst-0c8392ed0dd919b85ea13363453afad0.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
-                  >
-                    Catalyst ISL Program
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Find out how you can learn now, and pay after you're hired.
-                </p>
-                <div class="flex justify-center pt-3">
-                  <button
-                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
-                  >
-                    Apply Now
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-full bg-white">
-              <NuxtLink to="/" class="flex justify-center">
-                <img
-                  class="h-[8rem]"
-                  src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/catalyst-0c8392ed0dd919b85ea13363453afad0.webp"
-                  alt=""
-                />
-              </NuxtLink>
-              <div class="p-5 text-center">
-                <NuxtLink to="/">
-                  <h5
-                    class="mb-2 text-[1.125rem] mb-5 font-bold tracking-tight text-gray-900"
-                  >
-                    Catalyst ISL Program
-                  </h5>
-                </NuxtLink>
-                <p class="mb-3 font-normal text-gray-700">
-                  Find out how you can learn now, and pay after you're hired.
-                </p>
-                <div class="flex justify-center pt-3">
-                  <button
-                    class="border text-red-600 border-red-600 px-6 py-3 mt-4"
-                  >
-                    Apply Now
-                  </button>
-                </div>
-              </div>
-            </div>
+            <Path
+              image="/classroom.png"
+              title="Full-Time"
+              description="Challenge yourself and change your career with an 10-13 week immersive learning experience."
+              link="/"
+              buttonText="View Full-Time Courses"
+            />
+            <Path
+              image="/classroom1.png"
+              title="Full-Time"
+              description="Challenge yourself and change your career with an 10-13 week immersive learning experience."
+              link="/"
+              buttonText="View Full-Time Courses"
+            />
+            <Path
+              image="/education-app.png"
+              title="Full-Time"
+              description="Challenge yourself and change your career with an 10-13 week immersive learning experience."
+              link="/"
+              buttonText="View Full-Time Courses"
+              :border="true"
+            />
           </div>
         </div>
 
@@ -403,7 +154,7 @@
 
       <div>
         <h2 class="text-center text-[1.125rem] font-bold pt-16">
-          UPCOMING EVENTS IN
+          UPCOMING EVENTS / WORKSHOPS
         </h2>
         <div class="flex justify-center pt-4">
           <h2 class="flex items-center font-bold text-3xl">
@@ -426,182 +177,30 @@
           <div
             class="px-6 max-w-screen-xl grid md:grid-cols-2 grid-cols-1 gap-6"
           >
-            <NuxtLink
-              to=""
-              class="md:flex bg-white border border-gray-200 shadow hover:bg-gray-100 p-4 relative"
-            >
-              <img
-                class="max-w-[132px] h-[80px] w-full"
-                src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/4304/thumb_on_demand__2_.png"
-              />
-              <div
-                class="flex flex-col max-md:pt-1 justify-between md:px-4 leading-normal pr-7"
-              >
-                <h5
-                  class="mb-2 text-[1.125rem] font-bold tracking-tight text-gray-900"
-                >
-                  [PRESS PLAY] So You Think You Want A Career In Tech?
-                </h5>
-                <p class="font-normal text-gray-700 inline-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-[23px] mr-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="#888888"
-                      d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V3q0-.425.288-.713T7 2q.425 0 .713.288T8 3v1h8V3q0-.425.288-.713T17 2q.425 0 .713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10Z"
-                    />
-                  </svg>
-                  Tuesday, 03 October
-                </p>
-              </div>
-              <div class="absolute top-[45%] right-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"
-                  />
-                </svg>
-              </div>
-            </NuxtLink>
-            <NuxtLink
-              to=""
-              class="md:flex bg-white border border-gray-200 shadow hover:bg-gray-100 p-4 relative"
-            >
-              <img
-                class="max-w-[132px] h-[80px] w-full"
-                src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/4304/thumb_on_demand__2_.png"
-              />
-              <div
-                class="flex flex-col max-md:pt-1 justify-between md:px-4 leading-normal pr-7"
-              >
-                <h5
-                  class="mb-2 text-[1.125rem] font-bold tracking-tight text-gray-900"
-                >
-                  [PRESS PLAY] So You Think You Want A Career In Tech?
-                </h5>
-                <p class="font-normal text-gray-700 inline-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-[23px] mr-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="#888888"
-                      d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V3q0-.425.288-.713T7 2q.425 0 .713.288T8 3v1h8V3q0-.425.288-.713T17 2q.425 0 .713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10Z"
-                    />
-                  </svg>
-                  Tuesday, 03 October
-                </p>
-              </div>
-              <div class="absolute top-[45%] right-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"
-                  />
-                </svg>
-              </div>
-            </NuxtLink>
-            <NuxtLink
-              to=""
-              class="md:flex bg-white border border-gray-200 shadow hover:bg-gray-100 p-4 relative"
-            >
-              <img
-                class="max-w-[132px] h-[80px] w-full"
-                src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/4304/thumb_on_demand__2_.png"
-              />
-              <div
-                class="flex flex-col max-md:pt-1 justify-between md:px-4 leading-normal pr-7"
-              >
-                <h5
-                  class="mb-2 text-[1.125rem] font-bold tracking-tight text-gray-900"
-                >
-                  [PRESS PLAY] So You Think You Want A Career In Tech?
-                </h5>
-                <p class="font-normal text-gray-700 inline-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-[23px] mr-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="#888888"
-                      d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V3q0-.425.288-.713T7 2q.425 0 .713.288T8 3v1h8V3q0-.425.288-.713T17 2q.425 0 .713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10Z"
-                    />
-                  </svg>
-                  Tuesday, 03 October
-                </p>
-              </div>
-              <div class="absolute top-[45%] right-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"
-                  />
-                </svg>
-              </div>
-            </NuxtLink>
-            <NuxtLink
-              to=""
-              class="md:flex bg-white border border-gray-200 shadow hover:bg-gray-100 p-4 relative"
-            >
-              <img
-                class="max-w-[132px] h-[80px] w-full"
-                src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/4304/thumb_on_demand__2_.png"
-              />
-              <div
-                class="flex flex-col max-md:pt-1 justify-between md:px-4 leading-normal pr-7"
-              >
-                <h5
-                  class="mb-2 text-[1.125rem] font-bold tracking-tight text-gray-900"
-                >
-                  [PRESS PLAY] So You Think You Want A Career In Tech?
-                </h5>
-                <p class="font-normal text-gray-700 inline-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-[23px] mr-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="#888888"
-                      d="M5 22q-.825 0-1.413-.588T3 20V6q0-.825.588-1.413T5 4h1V3q0-.425.288-.713T7 2q.425 0 .713.288T8 3v1h8V3q0-.425.288-.713T17 2q.425 0 .713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.588 1.413T19 22H5Zm0-2h14V10H5v10Z"
-                    />
-                  </svg>
-                  Tuesday, 03 October
-                </p>
-              </div>
-              <div class="absolute top-[45%] right-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#888888"
-                    d="M6.23 20.23L8 22l10-10L8 2L6.23 3.77L14.46 12z"
-                  />
-                </svg>
-              </div>
-            </NuxtLink>
+            <Event
+              title="Which tech career is best for you"
+              image="/curiosity.png"
+              date="Saturday, 21 October"
+              link="/"
+            />
+            <Event
+              title="Career in data analytics info"
+              image="/monitor.png"
+              date="Saturday, 18th November"
+              link="/"
+            />
+            <Event
+              title="Career in data science info"
+              image="/data-science.png"
+              date="Saturday, 18th November"
+              link="/"
+            />
+            <Event
+              title="Career in Machine Learning info"
+              image="/machine-learning1.png"
+              date="Saturday, 23th December"
+              link="/"
+            />
           </div>
         </div>
         <div class="flex justify-center pt-6">
@@ -628,14 +227,12 @@
         >
           <div>
             <NuxtLink to="" class="font-bold text-[1.8rem]"
-              >Learn Now, Pay Back After You're Hired</NuxtLink
+              >Knowledge First, Pay Back When you Get a Job</NuxtLink
             >
             <h2 class="my-4 font-normal text-[18px]">
-              Take a full-time GA Immersive course with little upfront cost.
-              With the Catalyst ISL Program made available through Stride
-              Funding¹, you pay back your tuition as manageable monthly payments
-              based on your income—only after you've landed a job earning
-              $40,000/year or more.²
+              Enroll in an Analytics CFD full time crash program with very
+              minimal initial cost. Then you can pay back for your tuition later
+              when you land a job.
             </h2>
             <div class="flex justify-center">
               <button
@@ -655,25 +252,17 @@
           <div>
             <div class="h-1 w-full bg-black"></div>
             <div class="text-center -mt-4">
-              <span class="bg-white font-medium px-2">
-                OUR GLOBAL COMMUNITY
-              </span>
+              <span class="bg-white font-medium px-2"> OUR COMMUNITY </span>
             </div>
             <div class="my-4">
               <NuxtLink to="">
-                <h2 class="font-bold text-[1.8rem]">6</h2>
-                <p>CAMPUSES WORLDWIDE</p>
-              </NuxtLink>
-            </div>
-            <div class="my-4">
-              <NuxtLink to="">
-                <h2 class="font-bold text-[1.8rem]">97,000+</h2>
+                <h2 class="font-bold text-[1.8rem]">1000+</h2>
                 <p>GLOBAL ALUMNI</p>
               </NuxtLink>
             </div>
             <div class="my-4">
               <NuxtLink to="">
-                <h2 class="font-bold text-[1.8rem]">20,000+</h2>
+                <h2 class="font-bold text-[1.8rem]">20+</h2>
                 <p>EXPERT INSTRUCTORS</p>
               </NuxtLink>
             </div>
@@ -698,16 +287,21 @@
           </div>
           <div class="w-full [&_p]:text-[1.2rem] [&_p]:py-2.5">
             <h2 class="text-[1.8rem] font-bold">
-              Transform Your Company by Boosting Skills and Building Teams
+              Elevate Your Organization by Enhancing Skills and Cultivating
+              Strong Teams.
             </h2>
-            <p>
-              General Assembly's commitment to cultivating in-demand skills and
-              leading-edge talent extends to your workforce.
-            </p>
             <p>
               We transform companies of all sizes by providing, assessing, and
               training talent in today's top tech, design, and business
               strategies.
+            </p>
+            <p>
+              The Analytics Center for Data is a trailblazer in education and
+              career evolution, specializing in today's most sought-after
+              competencies. As the foremost destination for training, talent
+              placement, and career transitions, we cultivate a thriving
+              community of professionals who are pursuing careers they are truly
+              passionate about.
             </p>
             <button
               class="bg-red-600 font-medium text-white px-6 py-3 mt-4 shadow hover:shadow-lg"
@@ -731,8 +325,16 @@
 </template>
 
 <script>
+import Program from "~/components/Program.vue";
+import Event from "~/components/Event.vue";
+import Path from "~/components/Path.vue";
 export default {
   name: "Home page",
+  components: {
+    Program,
+    Event,
+    Path,
+  },
 };
 </script>
 
