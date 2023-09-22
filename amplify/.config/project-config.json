@@ -1,17 +1,17 @@
 {
+  "providers": [
+    "awscloudformation"
+  ],
   "projectName": "analyticscfd",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
-    "framework": "none",
+    "framework": "vue",
     "config": {
       "SourceDir": "src",
       "DistributionDir": "dist",
       "BuildCommand": "npm.cmd run-script build",
-      "StartCommand": "npm.cmd run-script start"
+      "StartCommand": "npm.cmd run-script serve"
     }
-  },
-  "providers": [
-    "awscloudformation"
-  ]
+  }
 }
