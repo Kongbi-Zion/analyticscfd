@@ -3,8 +3,8 @@
     <div class="mx-auto w-full max-w-screen-xl px-4 md:py-6 lg:py-8">
       <div class="md:flex gap-16">
         <div class="mb-6 md:mb-0 w-full">
-          <NuxtLink to="/" class="flex items-center my-6">
-            <img src="/logo.png" class="h-[50px]" />
+          <NuxtLink to="/" class="flex items-center max-md:justify-center my-6">
+            <img src="/logo.png" class="h-[50px] md:h-[65px]" />
           </NuxtLink>
           <h2 class="font-normal text-[1.1rem] max-[767px]:text-center">
             Analytics Center For Data is a pioneer in education and career

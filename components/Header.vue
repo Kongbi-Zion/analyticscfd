@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-white h-[65px]">
+  <div class="bg-white h-[70px]">
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto h-[65px] px-4"
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto h-[70px] px-4"
     >
       <NuxtLink to="/" class="flex items-center">
-        <img src="/logo.png" class="h-8 mr-3" />
+        <img src="/logo.png" class="h-10 mr-3" />
       </NuxtLink>
       <button
         type="button"
@@ -34,7 +34,7 @@
           class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-0 md:mt-0 md:border-0"
         >
           <li
-            class="h-[65px] hover:bg-slate-500 hover:cursor-pointer px-3 flex items-center"
+            class="h-[70px] hover:bg-slate-500 hover:cursor-pointer px-3 flex items-center"
           >
             <NuxtLink
               to="/"
@@ -51,7 +51,7 @@
             </NuxtLink>
           </li>
           <li
-            class="h-[65px] hover:bg-slate-500 hover:cursor-pointer px-3 flex items-center"
+            class="h-[70px] hover:bg-slate-500 hover:cursor-pointer px-3 flex items-center"
           >
             <NuxtLink
               to="/"
@@ -68,7 +68,7 @@
             </NuxtLink>
           </li>
           <li
-            class="h-[65px] hover:bg-slate-500 hover:cursor-pointer px-3 flex items-center"
+            class="h-[70px] hover:bg-slate-500 hover:cursor-pointer px-3 flex items-center"
           >
             <NuxtLink
               to="/"
@@ -85,7 +85,7 @@
             </NuxtLink>
           </li>
           <li
-            class="h-[65px] bg-yellow-500 hover:cursor-pointer px-3 flex items-center"
+            class="h-[70px] bg-yellow-500 hover:cursor-pointer px-3 flex items-center"
           >
             <NuxtLink
               to="/"

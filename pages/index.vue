@@ -4,18 +4,18 @@
       <div class="pb-10">
         <div class="h-fit bg-white pb-8">
           <div
-            class="bg-center bg-no-repeat bg-[url('https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/hero-96e8680a0a0fbd88fdc3893e39fbb464.webp')] bg-gray-600 bg-blend-multiply h-[450px]"
+            class="bg-center bg-no-repeat bg-[url('/hero.jpeg')] bg-gray-400 bg-blend-multiply h-[450px]"
           >
             <div
               class="px-4 mx-auto max-w-screen-xl text-center pt-20 md:pt-24"
             >
-              <h1 class="mb-4 text-2xl md:text-4xl font-extrabold text-white">
-                Learning Today, Leading Tomorrow
+              <h1 class="mb-4 text-2xl md:text-4xl font-bold text-white">
+                Soaring to excellence
               </h1>
               <p
-                class="mb-8 text-lg font-semibold text-gray-300 lg:text-xl sm:px-16 lg:px-48"
+                class="mb-8 text-lg font-semibold text-gray-200 lg:text-xl sm:px-16 lg:px-48"
               >
-                Cultivating Diverse Tech Talents in Africa
+                Bridging the Tech talent gap in Africa
               </p>
             </div>
           </div>
@@ -30,8 +30,8 @@
                 INDIVIDUALS
               </h5>
               <p class="font-normal text-[1.125rem]">
-                Get ahead with expert-led training in data analysis , data
-                science, machine learning, etc
+                Take your skills to the next level with expert-led training in
+                data analysis, data science, machine learning, etc
               </p>
               <button class="bg-red-600 text-white px-6 py-4 mt-4 shadow">
                 Get Started
@@ -44,8 +44,8 @@
                 COMPANIES
               </h5>
               <p class="font-normal text-[1.125rem]">
-                Fortify your workforce with intensive training, evaluations, and
-                an exclusive hiring pipeline.
+                Create a high-performing team with intensive training, regular
+                performance evaluations, and a customized hiring process.
               </p>
               <button class="bg-red-600 text-white px-6 py-4 mt-4 shadow">
                 Get Started
@@ -648,7 +648,7 @@
           <div>
             <img
               class="h-auto max-w-full"
-              src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/submasthead-02b672aa3596911afa460a540f6fddf6.webp"
+              src="/student.jpeg"
               alt="image description"
             />
           </div>
@@ -692,7 +692,7 @@
           <div class="w-full max-lg:mb-3">
             <img
               class="h-auto max-w-full"
-              src="https://ga-website-production-herokuapp-com.global.ssl.fastly.net/packs/media/assets/images/home/corporate-training-f6b24fe11c1257a39ed46c301840d436.webp"
+              src="/group-study.jpeg"
               alt="image description"
             />
           </div>
